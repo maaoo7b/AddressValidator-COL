@@ -28,17 +28,80 @@ nomenclaturas = {
     "CONSULTORIO" : ["CONSULTORIO","CONS","CS"],
     "CORREGIMIENTO" : ["CORREGIMIENTO","CORR"],
 
+    "DEPARTAMENTO" : ["DEPARTAMENTO","DEPTO","DPTO"],
+    "DEPOSITO" : ["DEPOSITO","DP"],
+    "DEPOSITO SOTANO": ["DEPOSITO SOTANO", "DS"],
     "DIAGONAL": ["DIAGONAL","DIA","DG"],
-    "DEPOSITO SOTANO": ["DEPOSITO SOTANO","DS"],
+
     "EDIFICIO": ["EDIFICIO","ED"],
     "ENTRADA": ["ENTRADA", "EN"],
     "ESQUINA": ["ESQ", "ESQUINA"],
     "ESTE": ["ESTE"],
     "ETAPA": ["ETAPA","ET"],
-    "EXTERIOR": ["EXTERIOR", "EX"],
-    ""
+    "EXTERIOR": ["EXTERIOR", "EX","EXT"],
 
-    "TRANSVERSAL": ["TRANSVERSAL","TV"],
+    "FINCA": ["FINCA", "FCA"],
+
+    "GARAJE": ["GARAJE", "GJ"],
+    "GARAJE SOTANO": ["GARAJE SOTANO", "GS"],
+
+    "HACIENDA": ["HACIENDA", "HC"],
+
+    "INTERIOR": ["INTERIOR", "IN"],
+    "KILOMETRO": ["KILOMETRO", "KM"],
+    "LOCAL": ["LOCAL", "LC"],
+    "LOCAL MEZZANINE": ["LOCAL MEZZANINE", "LM"],
+    "LOTE": ["LOTE", "LT"],
+
+    "MANZANA": ["MANZANA", "MZ"],
+    "MEZZANINE": ["MEZZANINE", "MN"],
+    "MODULO": ["MODULO", "MD"],
+    "MUNICIPIO": ["MUNICIPIO", "MCP","MCPIO","MNPIO"],
+
+    "NORTE": ["NORTE"],
+
+    "OCCIDENTE": ["OCCIDENTE"],
+    "OESTE": ["OESTE"],
+    "OFICINA": ["OFICINA", "OF"],
+    "ORIENTE": ["ORIENTE","OR"],
+
+    "PARCELA": ["PARCELA", "PA"],
+    "PARQUE": ["PARQUE", "PA"],
+    "PARQUEADERO": ["PARQUEADERO", "PQ"],
+    "PASAJE": ["PASAJE", "PJ"],
+    "PASEO": ["PASEO", "PS"],
+    "PENTHOUSE": ["PENTHOUSE", "PH"],
+    "PISO": ["PISO", "P"],
+    "PLANTA": ["PLANTA", "PL"],
+    "PORTERIA": ["PORTERIA", "POR"],
+    "PREDIO": ["PREDIO", "PD"],
+    "PUENTE": ["PUENTE", "PTE","PN"],
+    "PUESTO": ["PUESTO", "PT"],
+
+    "SALON": ["SALON", "SA"],
+    "SALON COMUNAL": ["SALON COMUNAL", "SC"],
+    "SECTOR": ["SECTOR", "SEC"],
+    "SEMISOTANO": ["SEMISOTANO", "SS"],
+    "SOLAR": ["SOLAR", "SL"],
+    "SOTANO": ["SOTANO", "ST"],
+    "SUITE": ["SUITE", "SU"],
+    "SUPER MANZANA": ["SUPER MANZANA", "SM"],
+    "SUR": ["SUR"],
+
+    "TERMINAL": ["TERMINAL", "TER"],
+    "TERRAZA": ["TERRAZA", "TZ"],
+    "TORRE": ["TORRE", "TO"],
+    "TRANSVERSAL": ["TRANSVERSAL","TRANSV","TV"],
+
+    "UNIDAD": ["UNIDAD", "UN"],
+    "UNIDAD RESIDENCIAL": ["UNIDAD RESIDENCIAL", "UR"],
+    "URBANIZACION": ["URBANIZACION", "URB"],
+
+    "VARIANTE": ["VARIANTE", "VTE"],
+    "VEREDA": ["VEREDA", "VDA"],
+
+    "ZONA": ["ZONA", "ZN"],
+    "ZONA FRANCA": ["ZONA FRANCA", "ZF"],
 }
 
 
