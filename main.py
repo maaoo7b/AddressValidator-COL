@@ -109,7 +109,7 @@ print(nomenclaturas)
 
 '''
 1)Terminar nomenclaturas
-2)Preguntarle a Marco sobre el formato
+2)Preguntar sobre el formato
 3)Separar por espacios y definir que son nomenclaturas/números/palabras/carácteresEspeciales.
 4)
 '''
