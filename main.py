@@ -8,11 +8,11 @@ nomenclaturas = {
     "APARTAMENTO" : ["APTO","APT","APARTAMENTO"],
     "AUTOPISTA" : ["AUTOPISTA","AUT"],
     "AVENIDA" : ["AVENIDA","AV","AVE"],
-    "AVENIDA CARRERA": ["AK", ],
+    "AVENIDA CARRERA": ["AK",],
 
     "BARRIO" : ["BARRIO","BRR"],
     "BLOQUE" : ["BLOQUE","BL","BLQ"],
-    "BODEGA" : ["BBODEGA","BG"],
+    "BODEGA" : ["BODEGA","BG"],
     "BOULEVAR" : ["BOULEVAR","BLV"],
 
     "CALLE" : ["CALLE","CLL","CL"],
@@ -104,8 +104,17 @@ nomenclaturas = {
     "ZONA FRANCA": ["ZONA FRANCA", "ZF"],
 }
 
+# coding=utf8
+# the above tag defines encoding for this document and is for Python 2.x compatibility
 
-print(nomenclaturas)
+
+
+'''for k,v in nomenclaturas.items():
+    print(k,">>>>",v)
+
+for key in nomenclaturas:
+    print(key,":",nomenclaturas[key])
+##print(nomenclaturas)'''
 
 '''
 1)Terminar nomenclaturas
