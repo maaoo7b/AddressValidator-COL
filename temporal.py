@@ -1,8 +1,10 @@
 import re
 regexNomenclaturasA = "ADMINISTRACIÓN|AD|ADMIN|AGENCIA|AGAGRUPACIÓN|AGP|ALMACEN|ALM|ALTILLO|AL|APARTADO|APTDO|APTO|APT|APARTAMENTO|AUTOPISTA|AUT|AVENIDA|AV|AVE"
 regexNomenclaturasB= "BARRIO|BRR|BLOQUE|BL|BLQ|BODEGA|BG|BOULEVAR|BLV"
+regexNomenclaturasC= "CALLE|CLL|CL|CAMINO|CN|CARRERA|KRA|CRA|CR|KR|CARRETERA|CARR|CASA|CA|CENTRO COMERCIAL|CC|CIRCUNVALAR|CRV|CIUDADELA|CD|CONJUNTO|CONJ|CONJUNTO RESIDENCIAL|CON|CONSULTORIO|CONS|CSCORREGIMIENTO|CORR"
+
 regex2 = "([0-9]+)?([A-Z]{1})?(#)[0-9]+(-)[0-9]+"
-regex = fr"^(${regexNomenclaturasA}|${regexNomenclaturasB})"+regex2
+regex = fr"^(${regexNomenclaturasA}|${regexNomenclaturasB}|${regexNomenclaturasC})"+regex2
 
 test_str = ("a \n"
             "babbaba\n"
@@ -15,6 +17,7 @@ test_str = ("a \n"
             "crab\n"
             "crcra\n"
             "cr89W#12-12\n"
+            "CONJUNTO RESIDENCIAL89W#12-12\n"
             "BRR89#12-12\n"
             "craW#12-12\n"
             "ADW#12-12\n")
