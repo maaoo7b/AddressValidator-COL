@@ -66,7 +66,7 @@ nomenclaturas = {
     "ORIENTE": ["ORIENTE","OR"],
 
     "PARCELA": ["PARCELA", "PA"],
-    "PARQUE": ["PARQUE", "PA"],
+    "PARQUE": ["PARQUE", "PAR"],
     "PARQUEADERO": ["PARQUEADERO", "PQ"],
     "PASAJE": ["PASAJE", "PJ"],
     "PASEO": ["PASEO", "PS"],
