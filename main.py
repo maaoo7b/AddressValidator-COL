@@ -111,13 +111,15 @@ nomenclaturas = {
 
 
 
-'''for k,v in nomenclaturas.items():
+for k,v in nomenclaturas.items():
     print(k,">>>>",v)
 
 for key in nomenclaturas:
     print(key,":",nomenclaturas[key])
-##print(nomenclaturas)'''
 
+prueba = "TORRE giralda CRA 9A # 29-30"
+print(len(prueba.upper().split()))
+print(prueba.upper().split())
 '''
 1)Terminar nomenclaturas
 2)Preguntar sobre el formato
