@@ -34,5 +34,5 @@ def validAddresses(matches):
     file = open('validAdresses.txt', 'w', encoding='utf-8')
     for matchNum, match in enumerate(matches, start=1):
         print("Match {matchNum} was found at {start}-{end}: {match}".format(matchNum=matchNum, start=match.start(),end=match.end(), match=match.group()))
-        file.write('Nomenclatura/Dirección: ' + match.group() + ' ----> VÁLIDA\n')
+        file.write('Dirección: ' + match.group() + ' ----> VÁLIDA\n')
     file.close()
