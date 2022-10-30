@@ -32,7 +32,7 @@ def readAddresses(fileAdresses):
 
 
 def validAddresses(matches):
-    file = open('validAdresses.txt', 'w', encoding='utf-8')
+    file = open('./validAdresses.txt', 'w', encoding='utf-8')
     for matchNum, match in enumerate(matches, start=1):
         print("Match {matchNum} : {match}".format(matchNum=matchNum, start=match.start(),end=match.end(), match=match.group()))
         file.write('Dirección: ' + match.group() + ' ----> VÁLIDA\n')
